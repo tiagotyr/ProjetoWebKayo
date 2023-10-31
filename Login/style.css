@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #103B19;
+}
+  
+#versao-pc {
+  height: 100%;
+}
+
+.versao-pc-links {
+  margin: 0 3vw;
+}
+
+.navbar {
+  display: flex;
+  padding: 0 24px;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: #D1E8D8; 
+}
+
+.navbar-pc-links {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.navbar .logo {
+  float: left;
+  padding: 15px;
+  font-size: 38px;
+  text-align: center;
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 700;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #103B19;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+  }
+  
+  .navbar .buttons {
+    float: right;
+}
+  
+.dropdown {
+    display: none;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+  
+.icon-text div {
+    
+    color: rgba(16, 59, 25, 0.75);
+}
+  
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    background-color: #D1E8D8;
+    color: white;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #0E2814;
+    padding: 80px 40px;
+    
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+  
+    color: #fff;
+}
+  
+.part {
+    flex: 1;
+    margin: 0 10px;
+}
+  
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+  
+footer ul li {
+    margin-bottom: 10px;
+}
+  
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+  
+footer ul li:first-child{
+    padding-bottom: 20px;
+}
+  
+footer img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.down-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+  
+  
+.down-details p {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+@media screen and (max-width: 1200px) {
+    .header {
+      padding: 0 3vw;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+
+    .navbar a, .navbar .buttons {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .navbar .buttons, .navbar .versao-pc {
+        display: none;
+      }
+    
+    .navbar .dropdown {
+        display: block;
+    }
+    
+    .navbar .icon {
+        display: block;
+        float: right;
+    }
+    
+    
+    .navbar .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 69px;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .navbar .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    
+    .navbar .show {
+        display: block;
+    }
+    
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+      }
+}
