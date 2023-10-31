@@ -130,11 +130,13 @@
     font-weight: 700;
     line-height: 342.857%;
     text-transform: capitalize;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #botao {
     background-color: #62C476;
+    border-color: #FFF;
+    border-radius: 4px;
     width: 148px;
     height: 38px;
     flex-shrink: 0;
@@ -146,7 +148,8 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin-top: 32px;
+    margin-top: 32px; 
+    margin-bottom: 171px;
 }
 
 
