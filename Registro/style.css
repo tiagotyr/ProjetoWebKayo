@@ -80,7 +80,7 @@
     align-items: center;
     justify-content: center;
 }
-  
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -132,6 +132,7 @@
     text-transform: capitalize;
     margin-top: 10px;
 }
+
 
 #botao {
     background-color: #62C476;
