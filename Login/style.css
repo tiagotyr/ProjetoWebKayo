@@ -108,6 +108,17 @@
     margin-top: 0px;
 }
 
+#labeltop{
+    color: #62C476;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 240px;
+}
+
 .caixa {
     width: 370px;
     height: 40px;
@@ -132,8 +143,8 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin-top: 32px; 
-    margin-bottom: 171px;
+    margin-top: 37px; 
+    margin-bottom: 318px;
 }
 
 footer {
