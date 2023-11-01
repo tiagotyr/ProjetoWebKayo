@@ -106,9 +106,40 @@
 
 }
 
+#titulo {
+    width: 474px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+}
 
+#tipo {
+    width: 156px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+}
 
+#descrição {
+    width: 644px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+}
 
+#botao {
+    width: 249px;
+    height: 66px;
+    border-radius: 6px;
+    background: #62C476;
+    border: transparent;
+}
 
 
 
