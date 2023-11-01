@@ -90,6 +90,22 @@
     color: white;
 }
 
+#namebar {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#img {
+    width: 34.708px;
+    height: 41.854px;
+    flex-shrink: 0;
+
+}
+
 
 
 

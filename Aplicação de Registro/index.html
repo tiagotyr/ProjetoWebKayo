@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Ajude ONGs e Ganhe Experiencia</title>
 </head>
@@ -22,6 +24,12 @@
               <a href="#" class="versao-pc">Serviços</a>
               <a href="#" class="versao-pc">Suporte</a>
             </div>
+            <div>
+              <a href="#" id="namebar">HEBERT</a>
+            </div>
+            <div>
+              <img id="img" src="/Aplicação de Registro/imgs/31d6d03f9da8db5c2c748732f6f807eb.png" alt="Imagem de Perfil">
+            </div>
           </div> 
           <div class="dropdown">
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -33,8 +41,14 @@
           </div>
         </div>     
     </header>
-
-
+<div>  
+  <form action="processar_formulario.php" method="post">
+  <input type="text" placeholder="TITULO DO SERVIÇO" id="titulo" name="titulo" required><br><br>
+  <input type="text" placeholder="TIPO" id="tipo" name="tipo" required><br><br>
+  <textarea placeholder="DESCRIÇÂO DO SERVIÇO" id="descricao" name="descricao" rows="4" required></textarea><br><br>
+  <input type="submit" value="Publicar">
+</form>
+</div>
 
     <footer>
 
