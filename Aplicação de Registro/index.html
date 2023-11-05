@@ -44,9 +44,13 @@
 <div id="container">  
   <form action="processar_formulario.php" method="post">
   <input type="text" placeholder="TITULO DO SERVIÇO" id="titulo" name="titulo" required><br><br>
-  <input type="text" placeholder="TIPO" id="tipo" name="tipo" required><br><br>
+  <select id="tipo">
+    <option value="Desenvolvedor" >Desenvolvimento Web</option>
+    <option value="Editor de video e Imagem" >Edição de Imagem e Video</option>
+    <option value="Design" >Designer</option>
+  </select>
   <textarea placeholder="DESCRIÇÂO DO SERVIÇO" id="descricao" name="descricao" required></textarea><br><br>
-  <input id="botao" type="submit" value="Publicar"></form>
+  <input id="botao" type="submit" value="Enviar para Análise"></form>
 </div>
 
     <footer>
