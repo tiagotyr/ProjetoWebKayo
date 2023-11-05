@@ -103,7 +103,6 @@
     width: 34.708px;
     height: 41.854px;
     flex-shrink: 0;
-
 }
 
 #container{
@@ -130,6 +129,7 @@
 }
 
 #tipo {
+    display: block;
     width: 156px;
     height: 40px;
     flex-shrink: 0;
@@ -143,6 +143,7 @@
     font-weight: 400;
     line-height: 200%;
     letter-spacing: 1px;
+    margin-bottom: 20px;
 }
 
 #descricao {
