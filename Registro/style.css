@@ -105,7 +105,7 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 #labeltop {
@@ -117,6 +117,7 @@
     line-height: normal;
     text-transform: uppercase;
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .caixa {
@@ -126,7 +127,16 @@
     border-radius: 4px;
     border: 1px solid #DADADA;
     background: #FFF;
-    margin-top: 11px;
+}
+
+.caixaselect {
+    width: 370px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    margin-bottom: 20px;
 }
 .regras {
     width: 243px;
