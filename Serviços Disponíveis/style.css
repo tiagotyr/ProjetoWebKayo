@@ -70,77 +70,64 @@
   
   
 .namebar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 21px;
-    margin-bottom: 21px;
-    margin-right: 20px;
-    color: #000;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  margin-right: 20px;
 }
 
 .namebar a {
-    color: #000;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .namebar img {
-    width: 34.708px;
-    height: 41.854px;
-    flex-shrink: 0;
+  width: 34.708px;
+  height: 41.854px;
+  flex-shrink: 0;
 }
 
 
   
   
-  .dropdown {
-    display: none;
-  }
+.dropdown {
+  display: none;
+}
   
  
-  /* content */
+
   
 
+.ultimos-projetos {
+  margin: 0 auto;
+  text-align: center;
+}
 
-  .ultimos-projecto-section .cards {
-    display: flex;
-    
-    
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 50vw;
-    
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
+.ultimos-projecto-section .cards {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19px;
+}
   
-  .ultimos-projecto-section .card {
-    border-radius: 16px;
-    border: 5px solid #D1E8D8;
-    background: #FFF;
-    box-shadow: 0px 4px 12px 0px rgba(16, 59, 25, 0.08);
-    width: 220px;
-    height: 380px;
-    flex-shrink: 0;   
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: auto;
-    margin-left: 20px;
-    text-align: center;
-  }
+.ultimos-projecto-section .card {
+  width: 309px;
+  height: 406px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 5px solid #D1E8D8;
+  background: #FFF;
+  box-shadow: 0px 4px 12px 0px rgba(16, 59, 25, 0.08);
+
+}
   
-  .ultimos-projecto-section .card .card-image {
+.ultimos-projecto-section .card .card-image {
     max-width: 100%;
     border-radius: 16px;
     height: auto;
@@ -150,37 +137,37 @@
     padding-right: 6px;
     padding-bottom: 10px;
     
-  }
+}
   
-  .user {
+.user {
     display: flex;
     align-items: center;
     margin-top: 32px;
-  }
+}
   
-  .linha-divisoria {
+.linha-divisoria {
     width: 100%;
     height: 1px;
     background-color: #D1E8D8;
     margin-top: 16px; 
-  }
+}
   
   
-  .user-image {
+.user-image {
     width: 34px;
     height: 41px;
     border-radius: 50%;
     margin-right: 10px;
-  }
+}
   
-  .detalhes {
+.detalhes {
     display: flex;
     justify-content: space-between;
     align-items: center; 
     
-  }
+}
   
-  .icon-text {
+.icon-text {
     display: flex;
     align-items: center; 
     color: rgba(16, 59, 25, 0.75);
@@ -191,33 +178,30 @@
     line-height: 24px; /* 171.429% */
     letter-spacing: 1px;
     
-  }
+}
   
-  .icon-text div {
-    
-    color: rgba(16, 59, 25, 0.75);
-  }
+.icon-text div {
+  color: rgba(16, 59, 25, 0.75);
+}
   
-  .icon {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-  }
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+}
 
 #searchInput {
-    padding: 5px;
-    width: 585px;
-    height: 40px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    border: 1px solid #DADADA;
-    background: #FFF;
+  padding: 5px;
+  width: 585px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #DADADA;
+  background: #FFF;
 }
 
 .h7 {
@@ -247,91 +231,84 @@
 
 
 .button-bar {
-    text-align: right;  
-    margin-bottom: 35px;
-    margin-left: 15px;
-    margin-right: 79px;
-    margin-top: 63px;
-    
+  text-align: center;  
+  margin-bottom: 35px;
+  margin-left: 15px;
+  margin-right: 79px;
+  margin-top: 63px;
 }
 
 .buttonbar {  
-    text-align: left;
-    margin-bottom: 159px;
-    margin-left: 55px;
-    margin-right: 1237px;
-    margin-top: 70px;
+  text-align: left;
+  margin-bottom: 159px;
+  margin-left: 55px;
+  margin-right: 1237px;
+  margin-top: 70px;
 }
 
 button {
-    padding: 10px 20px;
-    background: rgba(98, 196, 118, 1);
-    border-radius: 6px;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    width: 148px;
-    height: 40px;
-    flex-shrink: 0;
+  padding: 10px 20px;
+  background: rgba(98, 196, 118, 1);
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 148px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
-
-  /* footer */
-
-  footer {
-    background-color: #0E2814;
-    padding: 80px 40px;
+footer {
+  background-color: #0E2814;
+  padding: 80px 40px;
     
-  }
-  .footer-wrapper {
-    display: flex;
-    justify-content: space-between;
-  
-    color: #fff;
-  }
-  
-  .part {
-    flex: 1;
-    margin: 0 10px;
-  }
-  
-  footer ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  footer ul li {
-    margin-bottom: 10px;
-  }
-  
-  footer a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  footer ul li:first-child{
-    padding-bottom: 20px;
-  }
-  
-  footer img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .down-details {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  
-  .down-details p {
-    color: rgba(255, 255, 255, 0.50);
-  }
+}
 
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
   
- /* media */
+.part {
+  flex: 1;
+  margin: 0 10px;
+}
+  
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+  
+footer ul li {
+  margin-bottom: 10px;
+}
+  
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+  
+footer ul li:first-child{
+  padding-bottom: 20px;
+}
+  
+footer img {
+  max-width: 100%;
+  height: auto;
+}
+  
+.down-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+  
+  
+.down-details p {
+  color: rgba(255, 255, 255, 0.50);
+}
 
   @media screen and (max-width: 1200px) {
     .header {
