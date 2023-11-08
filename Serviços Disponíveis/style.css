@@ -1,0 +1,522 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #103B19;
+  }
+
+  body {
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+}
+
+  #container {
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+  #versao-pc {
+    height: 100%;
+  }
+  
+.versao-pc-links {
+    margin: 0 3vw;
+  }
+  
+
+/* header */
+
+.navbar {
+    display: flex;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #D1E8D8; 
+  }
+  
+.navbar-pc-links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+.navbar .logo {
+    float: left;
+    padding: 15px;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+  }
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: #103B19;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar a:hover{
+    text-decoration: underline;
+  }
+  
+  
+.namebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: 20px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.namebar a {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.namebar img {
+    width: 34.708px;
+    height: 41.854px;
+    flex-shrink: 0;
+}
+
+
+  
+  
+  .dropdown {
+    display: none;
+  }
+  
+ 
+  /* content */
+  
+
+
+  .ultimos-projecto-section .cards {
+    display: flex;
+    
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50vw;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .ultimos-projecto-section .card {
+    border-radius: 16px;
+    border: 5px solid #D1E8D8;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(16, 59, 25, 0.08);
+    width: 220px;
+    height: 380px;
+    flex-shrink: 0;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .ultimos-projecto-section .card .card-image {
+    max-width: 100%;
+    border-radius: 16px;
+    height: auto;
+    flex-shrink: 0; 
+    padding-top: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 10px;
+    
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+  }
+  
+  .linha-divisoria {
+    width: 100%;
+    height: 1px;
+    background-color: #D1E8D8;
+    margin-top: 16px; 
+  }
+  
+  
+  .user-image {
+    width: 34px;
+    height: 41px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .detalhes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+  }
+  
+  .icon-text {
+    display: flex;
+    align-items: center; 
+    color: rgba(16, 59, 25, 0.75);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 1px;
+    
+  }
+  
+  .icon-text div {
+    
+    color: rgba(16, 59, 25, 0.75);
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+
+#searchInput {
+    padding: 5px;
+    width: 585px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #DADADA;
+    background: #FFF;
+}
+
+.h7 {
+  width: 156px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #DADADA;
+  background: #FFF;
+  margin-right: 15px;
+  margin-left: 14px;
+}
+
+
+.h8 {
+  text-align: center;
+  color: #A3A3A3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+  letter-spacing: 1px;
+}
+
+
+
+
+.button-bar {
+    text-align: right;  
+    margin-bottom: 35px;
+    margin-left: 15px;
+    margin-right: 79px;
+    margin-top: 63px;
+    
+}
+
+.buttonbar {  
+    text-align: left;
+    margin-bottom: 159px;
+    margin-left: 55px;
+    margin-right: 1237px;
+    margin-top: 70px;
+}
+
+button {
+    padding: 10px 20px;
+    background: rgba(98, 196, 118, 1);
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 148px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+
+  /* footer */
+
+  footer {
+    background-color: #0E2814;
+    padding: 80px 40px;
+    
+  }
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+  
+    color: #fff;
+  }
+  
+  .part {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  footer ul li:first-child{
+    padding-bottom: 20px;
+  }
+  
+  footer img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .down-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  
+  .down-details p {
+    color: rgba(255, 255, 255, 0.50);
+  }
+
+  
+ /* media */
+
+  @media screen and (max-width: 1200px) {
+    .header {
+      padding: 0 3vw;
+    } 
+
+    .categorias-populares-wrapper {
+      max-width: 80%;
+    }
+  
+    .titulo-descricao {
+      flex-direction: column;
+      text-align: left;
+      align-items: start;
+    }
+    .explicando-melhor-cards {
+      display: flex;
+      flex-direction: column;
+    }
+    .explicando-melhor-card {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+    }
+  
+    #explicando-melhor {
+  
+      padding: 50px 20px;
+  
+    }
+  
+    .newsletter-section {
+      flex-direction: column;
+      align-items: center;
+  
+      padding: 60px 0;
+    }
+  
+    .section-heading {
+      font-size: 36px;
+      font-family: 'Baloo 2';
+    }
+  
+    .newsletter-head {
+      width: 80%;
+  
+      border-radius: 16px 16px 0 0 ;
+    }
+  
+    .subscription-form{
+      width: 80%;
+      border-radius: 0 0 16px 16px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+
+    .navbar a, .navbar .buttons {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+  
+  
+    .navbar .buttons, .navbar .versao-pc {
+      display: none;
+    }
+  
+    .navbar .dropdown {
+      display: block;
+    }
+  
+    .navbar .icon {
+      display: block;
+      float: right;
+    }
+  
+  
+    .navbar .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 69px;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+  
+    .navbar .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+  
+  
+    .navbar .show {
+      display: block;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .text-box {
+      order: 2;
+    }
+  
+    .text-box h1 {
+      font-family: 'Baloo 2', sans-serif;
+      font-size: 56px;
+    }
+  
+    .text-box p {
+      font-size: 16px;
+    }
+  
+    .image {
+      order: 1;
+    }
+  
+    .image img {
+      width: 50vw;
+    }
+  
+    .ultimos-projecto-section .cards {
+      flex-direction: column;
+      width: 80vw;
+    }
+  
+  
+    .ultimos-projecto-section .card {
+      flex: 1;
+    }
+  
+    .categorias-populares {
+      padding: 22px;
+    }
+  
+    .categorias-populares-wrapper {
+      max-width: 100%;
+      padding: 36px;
+    }
+  
+    .categorias-titulo {
+        font-size: 20px;
+    }
+  
+    .categorias-descricao {
+        font-size: 14px;
+    }
+  
+    .categorias-card {
+        flex: 1;
+        margin: 0 5px;
+        width: 56vw;
+    }
+  
+    .categorias-cards {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+  
+    .categorias-card-titulo {
+        font-size: 14px;
+    }
+  
+  
+    .newsletter-head {
+      width: 100%;
+    }
+  
+    .subscription-form{
+      width: 100%;
+    }
+  
+    .footer-wrapper {
+      flex-direction: column;
+    }
+  
+  }
