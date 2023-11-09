@@ -90,6 +90,20 @@
     color: white;
 }
 
+.sobre{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+.sobre span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+}
+
 footer {
     background-color: #0E2814;
     padding: 80px 40px;
